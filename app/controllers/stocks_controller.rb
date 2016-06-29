@@ -6,7 +6,7 @@ class StocksController < ApplicationController
     end
 
     if @stock
-      render json: @stock
+      render partial: 'lookup'
 
     else
 
