@@ -8,3 +8,18 @@
 .left_padding{
   padding: 16px !important;
 }
+.logout{
+  padding-left: 0;
+}
+.user-name{
+  padding-top: 16px;
+}
+.nav.navbar-right li {
+  .btn{
+    color: #fff !important;
+  margin-top: 6%;
+  }
+  .btn-danger:hover{
+    background-color: darken(#d9534f, 20%) !important;
+  }
+}
